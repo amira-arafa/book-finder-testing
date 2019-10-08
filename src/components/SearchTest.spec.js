@@ -34,8 +34,8 @@ describe('My Test Suite', () => {
     const button=component.find("button");
     const BtnClicked=button.simulate('click');
     const input=component.find("input").prop("value");
-    expect(BtnClicked.length).toBe(1);
    
+    expect(  expect(BtnClicked.length).toBe(1) )
 
   })
 })
