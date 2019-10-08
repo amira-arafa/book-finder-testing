@@ -20,7 +20,6 @@ export class Book extends React.Component {
     isFoundImage = () => {
         if (this.props.bookFromParent.volumeInfo.imageLinks.thumbnail) {
             return <div>
-                   <span className="text-info"> Image:</span>
                     <img src={this.props.bookFromParent.volumeInfo.imageLinks.thumbnail}></img>
             </div>
         }

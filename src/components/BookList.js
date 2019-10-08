@@ -9,9 +9,7 @@ export class BookList extends React.Component{
             return this.props.filteredBooks.map((book)=>{
                 return <Book  key={book.volumeInfo.id} bookFromParent={book}/>
             })
-       
         }
-        
     }
     render(){
    
